@@ -1,0 +1,7 @@
+name: "label new PR"
+description: "automatically label new PRs"
+author: "Abiola"
+
+runs:
+  using: "node16"
+  main: "dist/index.js"
