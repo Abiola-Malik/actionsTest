@@ -1,6 +1,4 @@
 name: "hello"
-description: "A simple GitHub Action that prints a greeting message."
-author: "Abiola"
 
 on:
   workflow_dispatch:
