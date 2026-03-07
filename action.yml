@@ -2,6 +2,14 @@ name: "label new PR"
 description: "automatically label new PRs"
 author: "Abiola"
 
+inputs:
+  gh-token:
+    description: "GitHub token  with permissions to label PRs"
+    required: true
+  label:
+    description: "The label to apply to new PRs"
+    required: true
+
 runs:
   using: "node16"
   main: "dist/index.js"
